@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe compilar archivo activo",
+			"command": "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\gcc.exe",
+			"args": [
+				"-Wall",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compilador: gcc.exe"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: limpiar",
+			"command": "clean",
+			"problemMatcher": [],
+			"detail": "Tarea limpiar plantilla de CMake"
+		},
+		{
+			"type": "cmake",
+			"label": "CMake: compilación",
+			"command": "build",
+			"targets": [
+				"[N/A - Seleccionar kit]"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "Tarea compilación plantilla de CMake"
+		}
+	]
+}
