@@ -18,7 +18,6 @@
 Para compilar programas en c/c++ en windows, tiene varias opciones, aquí trabajaremmos con el compilador **gcc** y el editor **Visual Studio Code**.
 
 ## Instalar gcc
-### Opción 1 gcc con tdm-gcc
 
 Para instalar el compilador gcc le muestro 3 opciones:
 
@@ -34,13 +33,13 @@ Dev C++ no es un cimpilador es un ambiente que usa como  compilador gcc.
 
 [Liga para descargar Dev C++ 5.11](https://sourceforge.net/projects/orwelldevcpp/)
 
-Si ya istalo Dev-Cpp en una de las carpetas de la instalacion debe tener la carpta: MingW64 `C:\Program Files (x86)\Dev-Cpp\MinGW64`, que deberá agregar al path.
+Si ya istalo Dev-Cpp en una de las carpetas de la instalacion debe tener la carpta: MingW64 `C:\Program Files (x86)\Dev-Cpp\MinGW64`, como la instalación de **dev cpp** no agrega la ruta del compilador al path, usted deberá agregarla al path.
 
 ### Opción 3 gcc desde MySys
 
 MSYS2 es una colección de herramientas y bibliotecas que le brindan un entorno fácil de usar para crear, instalar y ejecutar software nativo de Windows, usando herramientas de Linux.
 
-Mingw-w64 es una rama proyecto avanzado de **mingw.org**, creado para admitir el compilador GCC en sistemas Windows. La rama bifurcó en 2007 para brindar soporte para 64 bits y nuevas API. Desde entonces ha ganado un uso y distribución generalizados.
+Mingw-w64 es una rama proyecto avanzado de **mingw.org**, creado para admitir el compilador GCC en sistemas Windows. La rama bifurcó en 2007 para brindar soporte para 64 bits y nuevas API. Desde entonces ha ganado en uso y distribución generalizados.
 
 [liga que explica como instalar mingw en mysys2](https://parzibyte.me/blog/2021/08/23/instalar-gcc-msys2-compilador-c-cpp/)
 
@@ -49,7 +48,7 @@ Puede instalar Mingw de forma independiente o con Dev-Cpp o (como en mi caso) ag
 Cualquier camino que haya tomado tendra una carpeta `mingw64`.
 
 ## Trabajar con cpp en Vscode
-VSCODE es un editor libre de Microsoft que puede trabajar con varios lenguajes, aquí lo configuramos para usar c++.
+VSCODE es un editor libre de Microsoft que puede trabajar con varios lenguajes, a continuación lo configuramos para usar c++.
 
 ### Forma 1 VsCode con tdm gcc 
 Pasos
